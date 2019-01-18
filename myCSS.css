@@ -1,0 +1,58 @@
+﻿@import url('https://fonts.googleapis.com/css?family=Patrick+Hand|Patrick+Hand+SC');
+
+/*
+<link href="https://fonts.googleapis.com/css?family=Patrick+Hand|Patrick+Hand+SC" rel="stylesheet">
+
+for headings    => font-family: 'Patrick Hand SC', cursive;
+for paragraphs  => font-family: 'Patrick Hand', cursive;
+
+from "fonts.google.com" 
+*/
+
+body{
+	background-position: 100% 100%;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+
+
+.container{
+	padding-top: 3em
+}
+
+h2{
+	font-family: 'Patrick Hand SC', cursive;
+	text-align: center;
+	color: #FFFFFF;
+}
+
+.color{
+	height: 15em;
+	margin: 2em 1em 2em 1em;
+}
+
+div.color:hover{
+	margin: 1em 1em 1em 1em;
+	height: 17em;
+}
+
+.infra-red{
+	background-color: #EF476F;
+}
+
+.orange-yellow{
+	background-color: #FFD166;
+}
+
+.caribbean-green{
+	background-color: #06D6A0;
+}
+
+.cyan-cornflower-blue{
+	background-color: #118AB2;
+}
+
+.warm-black{
+	background-color: #073B4C;
+}
