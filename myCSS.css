@@ -37,6 +37,8 @@ div.color:hover{
 	height: 17em;
 }
 
+/* why .js file can't see the colors defined in .css file? => document.querySelector("#id").style.backgroundColor */
+
 .infra-red{
 	background-color: #EF476F;
 }
