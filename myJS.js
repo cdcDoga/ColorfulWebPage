@@ -1,12 +1,13 @@
-﻿
 
-var redCard = document.querySelector("#red-card");
-var yellowCard = document.querySelector("#yellow-card");
-var greenCard = document.querySelector("#green-card");
-var blueCard = document.querySelector("#blue-card");
-var blackCard = document.querySelector("#black-card");
+				/* Vanilla */			/* jQuery */
 
-var h = document.querySelector("#headtext");
+var redCard = document.querySelector("#red-card");  		/* $('div').eq(3) */
+var yellowCard = document.querySelector("#yellow-card");	/* $('div').eq(4) */
+var greenCard = document.querySelector("#green-card");		/* $('div').eq(5) */
+var blueCard = document.querySelector("#blue-card");		/* $('div').eq(6) */
+var blackCard = document.querySelector("#black-card");		/* $('div').eq(7) */
+
+var h = document.querySelector("#headtext");				/* $('h2') */
 
 /* console.log("check point 1!") */
 
