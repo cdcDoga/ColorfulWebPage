@@ -9,7 +9,7 @@ var blackCard = document.querySelector("#black-card");		/* $('div').eq(7) */
 
 var h = document.querySelector("#headtext");				/* $('h2') */
 
-/* console.log("check point 1!") */
+/* -------------------------------- hover ---------------------------------- */
 
 redCard.addEventListener("mouseover", function(){change_color(redCard);});
 redCard.addEventListener("mouseout", change_back);
@@ -26,8 +26,6 @@ blueCard.addEventListener("mouseout", change_back);
 blackCard.addEventListener("mouseover", function(){change_color(blackCard);});
 blackCard.addEventListener("mouseout", change_back);
 
-/* console.log("check point 2!") */
-
 function change_color(cardID){
 	h.style.color = cardID.style.backgroundColor;
 }
@@ -35,3 +33,25 @@ function change_color(cardID){
 function change_back(){
 	h.style.color = "#FFFFFF";
 }
+
+/* -------------------------------- click ---------------------------------- */
+
+redCard.addEventListener("click", function(){
+	$('.container').fadeOut(3000);
+});
+
+yellowCard.addEventListener("click", function(){
+	$('.container').fadeOut(3000);
+});
+
+greenCard.addEventListener("click", function(){
+	$('.container').fadeOut(3000);
+});
+
+blueCard.addEventListener("click", function(){
+	$('.container').fadeOut(3000);
+});
+
+blackCard.addEventListener("click", function(){
+	$('.container').fadeOut(3000);
+});
